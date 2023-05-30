@@ -11,12 +11,46 @@
 
 .user_info {
   height: 100px;
-    padding: 0 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name {
+  font-size: 16px;
+}
+
+.name {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create_chat {
+  font-size: 10px;
+}
+
+.create {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .room_summary {
   background-color: #2F3E51;
-    padding: 0 20px;
+  padding: 0 20px;
+  overflow: scroll;
+  height: calc(100vh - 100px);
+}
+
+.rooms {
+  margin: 20px;
+}
+
+.room {
+  color: white;
+  text-decoration: none;
 }
 /* サイドバーCSSここまで */
 
@@ -32,7 +66,7 @@
 }
 
 .main_chat {
-  height: auto;
+  height: calc(100vh - 90px - 100px);
   background-color: #FAFAFA;
     padding: 0 40px;
 }
