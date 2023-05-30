@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+}
+
+/* サイドバーCSS */
+.side_bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.user_info {
+  height: 100px;
+    padding: 0 20px;
+}
+
+.room_summary {
+  background-color: #2F3E51;
+    padding: 0 20px;
+}
+/* サイドバーCSSここまで */
+
+/* チャット画面CSS */
+.chat_field {
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+.room_name {
+  height: 100px;
+  padding: 46px 40px 0;
+}
+
+.main_chat {
+  height: auto;
+  background-color: #FAFAFA;
+    padding: 0 40px;
+}
+
+.post_field {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
