@@ -60,19 +60,102 @@
   width: calc(100vw - 300px);
 }
 
-.room_name {
+.room_info {
   height: 100px;
-  padding: 46px 40px 0;
+  padding: 36px 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-name {
+  color: #333;
+  font-size: 24px;
+  
+}
+
+.exit {
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
 }
 
 .main_chat {
   height: calc(100vh - 90px - 100px);
   background-color: #FAFAFA;
-    padding: 0 40px;
+  padding: 0 40px;
+  overflow: scroll;
 }
 
+.chat {
+  display: flex;
+  margin-top: 10px;
+}
+
+.chat-user {
+  font-size: 14px;
+  color: #434a54;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: #434a54;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* チャット画面ここまで */
+
+
+/* 投稿欄ここから */
 .post_field {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
+
+.message-form {
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.message {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: 1px solid white;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.send-button {
+  background-color: #38aef0;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  border: solid #38aef0;
+  margin-left: 15px;
+}
+
+/* 投稿欄ここまで */
