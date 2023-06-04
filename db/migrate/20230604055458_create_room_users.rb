@@ -1,6 +1,4 @@
 class CreateRoomUsers < ActiveRecord::Migration[6.0]
-  belongs_to :room
-  belongs_to :user
 
   def change
     create_table :room_users do |t|
