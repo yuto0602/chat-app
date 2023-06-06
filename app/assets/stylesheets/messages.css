@@ -52,6 +52,12 @@
   color: white;
   text-decoration: none;
 }
+
+.room-name {
+  color: white;
+  text-decoration: none;
+}
+
 /* サイドバーCSSここまで */
 
 /* チャット画面CSS */
@@ -87,26 +93,32 @@
   overflow: scroll;
 }
 
-.chat {
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
   display: flex;
-  margin-top: 10px;
 }
 
-.chat-user {
-  font-size: 14px;
+.message-user {
   color: #434a54;
+  font-size: 16px;
 }
 
-.date {
-  font-size: 12px;
+.message-date {
   color: #999;
-  margin-left: 10px;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.text {
-  font-size: 14px;
-  color: #434a54;
+.lower-message {
   margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
